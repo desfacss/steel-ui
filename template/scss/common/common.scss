@@ -118,8 +118,8 @@
 
 /*-------------------------------------------------------------------*/
 /* === Import Bootstrap functions and variables === */
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../../../node_modules/bootstrap/scss/variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
 
 /*-------------------------------------------------------------------*/
 /* === Import template variables === */
@@ -127,12 +127,12 @@
 
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
-@import "../../../node_modules/compass-mixins/lib/compass";
-@import "../../../node_modules/compass-mixins/lib/animate";
+@import "~compass-mixins/lib/compass";
+@import "~compass-mixins/lib/animate";
 
 /*-------------------------------------------------------------------*/
 /* === Boostrap Main SCSS === */
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
 
 /*-------------------------------------------------------------------*/
 /* === Template mixins === */
@@ -202,7 +202,6 @@
 @import "components/plugin-overrides/ace";
 @import "components/plugin-overrides/avgrund";
 @import "components/plugin-overrides/chartist";
-@import "components/plugin-overrides/c3";
 @import "components/plugin-overrides/codemirror";
 @import "components/plugin-overrides/colcade";
 @import "components/plugin-overrides/colorpicker";
