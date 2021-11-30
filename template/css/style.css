@@ -16269,7 +16269,7 @@ button.bg-dark:focus,
   align-items: flex-end !important;
 }
 
-.align-items-center, .loader-demo-box, .list-wrapper ul li, .email-wrapper .message-body .attachments-sections ul li .thumb, .email-wrapper .message-body .attachments-sections ul li .details .buttons, .navbar .navbar-menu-wrapper .navbar-nav, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-settings, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item {
+.align-items-center, .loader-demo-box, .list-wrapper ul li, .email-wrapper .message-body .attachments-sections ul li .thumb, .email-wrapper .message-body .attachments-sections ul li .details .buttons, .navbar .navbar-menu-wrapper .navbar-nav, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item {
   align-items: center !important;
 }
 
@@ -16325,7 +16325,7 @@ button.bg-dark:focus,
   align-self: baseline !important;
 }
 
-.align-self-stretch, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-settings, .navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right {
+.align-self-stretch {
   align-self: stretch !important;
 }
 
@@ -29358,7 +29358,6 @@ div.tagsinput span.tag a {
   -webkit-transition: background 0.25s ease;
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
-  /* Navbar color variations */
 }
 
 @media (max-width: 992px) {
@@ -29379,60 +29378,6 @@ div.tagsinput span.tag a {
 .rtl .navbar .welcome-message {
   margin-left: 0px;
   margin-right: 40px;
-}
-
-.navbar .navbar-brand-wrapper {
-  background: #f3f4f7;
-  transition: width 0.25s ease, background 0.25s ease;
-  -webkit-transition: width 0.25s ease, background 0.25s ease;
-  -moz-transition: width 0.25s ease, background 0.25s ease;
-  -ms-transition: width 0.25s ease, background 0.25s ease;
-  height: 74px;
-}
-
-.sidebar-dark .navbar .navbar-brand-wrapper {
-  background: #23262b;
-}
-
-.navbar .navbar-brand-wrapper .navbar-brand {
-  color: #27367f;
-  font-size: 1.5rem;
-  margin-right: 0;
-  padding: .25rem 2rem;
-}
-
-.navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini {
-  display: none;
-}
-
-@media (max-width: 991px) {
-  .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini {
-    padding-left: .5rem;
-    padding-right: 0;
-  }
-}
-
-.navbar .navbar-brand-wrapper .navbar-brand:active, .navbar .navbar-brand-wrapper .navbar-brand:focus, .navbar .navbar-brand-wrapper .navbar-brand:hover {
-  color: #1b2658;
-}
-
-.navbar .navbar-brand-wrapper .navbar-brand img {
-  width: calc(240px - 130px);
-  max-width: 100%;
-  height: 34px;
-  margin: auto;
-  vertical-align: middle;
-}
-
-.navbar .navbar-brand-wrapper .brand-logo-mini {
-  padding-left: 0;
-  text-align: center;
-}
-
-.navbar .navbar-brand-wrapper .brand-logo-mini img {
-  width: calc(70px - 30px);
-  max-width: 100%;
-  margin: auto;
 }
 
 .navbar .navbar-menu-wrapper {
@@ -29456,33 +29401,6 @@ div.tagsinput span.tag a {
   }
 }
 
-.navbar .navbar-menu-wrapper .navbar-toggler {
-  border: 0;
-  color: #f02632;
-  font-size: 1.75rem;
-  background-image: linear-gradient(to top, #f1f2f5, rgba(255, 255, 255, 0)), linear-gradient(to bottom, #f6f6f9, #f6f6f9);
-  border-radius: 10px;
-  padding: 10px 10px 5px 10px;
-  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  -webkit-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  -moz-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  -ms-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  font-weight: bold;
-}
-
-@media (max-width: 991px) {
-  .navbar .navbar-menu-wrapper .navbar-toggler:not(.navbar-toggler-right) {
-    display: none;
-  }
-}
-
-@media (max-width: 991px) {
-  .navbar .navbar-menu-wrapper .navbar-toggler.navbar-toggler-right {
-    padding-left: 15px;
-    padding-right: 11px;
-  }
-}
-
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item {
   margin-left: .5rem;
   margin-right: .5rem;
@@ -29496,123 +29414,6 @@ div.tagsinput span.tag a {
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link {
   color: inherit;
   font-size: 1rem;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search {
-  margin-left: 2rem;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(255, 255, 255, 0.13);
-  border-radius: 4px;
-  padding: .75rem;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=text], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=text],
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .input-group-text,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .input-group-text {
-  border: 0;
-  color: #6f7580;
-  padding: .69rem .875rem;
-  box-shadow: inset 2px 1px 3px 0 rgba(200, 186, 186, 0.5);
-  -webkit-box-shadow: inset 2px 1px 3px 0 rgba(200, 186, 186, 0.5);
-  -moz-box-shadow: inset 2px 1px 3px 0 rgba(200, 186, 186, 0.5);
-  -ms-box-shadow: inset 2px 1px 3px 0 rgba(200, 186, 186, 0.5);
-}
-
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .input-group-text,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .input-group-text {
-  border-radius: 0 5px 5px 0;
-  background: #f02632;
-  color: #ffffff;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=text], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=text],
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint {
-  background: #f1f1f4;
-  margin-left: .5rem;
-  border-radius: 5px 0 0 5px;
-  width: 400px;
-}
-
-@media (max-width: 1024px) {
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=text], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=text],
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select,
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead,
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query,
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query,
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint,
-  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint {
-    width: 200px;
-  }
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select::-webkit-input-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select::-webkit-input-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=text]::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=text]::-webkit-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select::-webkit-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=number]::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=number]::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single::-webkit-input-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single::-webkit-input-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field::-webkit-input-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field::-webkit-input-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead::-webkit-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead::-webkit-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query::-webkit-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query::-webkit-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint::-webkit-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint::-webkit-input-placeholder {
-  color: #6f7580;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select:-moz-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select:-moz-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input:-moz-placeholder[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input:-moz-placeholder[type=text], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input:-moz-placeholder[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input:-moz-placeholder[type=text],
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select:-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select:-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select:-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input:-moz-placeholder[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input:-moz-placeholder[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input:-moz-placeholder[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input:-moz-placeholder[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single:-moz-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single:-moz-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field:-moz-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field:-moz-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead:-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead:-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query:-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query:-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint:-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint:-moz-placeholder {
-  color: #6f7580;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select::-moz-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select::-moz-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=text]::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=text]::-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select::-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input[type=number]::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input[type=number]::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single::-moz-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single::-moz-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field::-moz-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field::-moz-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead::-moz-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead::-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query::-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query::-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint::-moz-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint::-moz-placeholder {
-  color: #6f7580;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .form-control:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .asColorPicker-input:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .asColorPicker-input:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .dataTables_wrapper select:-ms-input-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .dataTables_wrapper select:-ms-input-placeholder, .dataTables_wrapper .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input:-ms-input-placeholder[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input:-ms-input-placeholder[type=text], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input:-ms-input-placeholder[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input:-ms-input-placeholder[type=text],
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select:-ms-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group select:-ms-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select:-ms-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap select:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input:-ms-input-placeholder[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group input:-ms-input-placeholder[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input:-ms-input-placeholder[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap input:-ms-input-placeholder[type=number], .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single:-ms-input-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single:-ms-input-placeholder, .select2-container--default .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-selection--single:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field:-ms-input-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field:-ms-input-placeholder, .select2-container--default .select2-selection--single .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .select2-search__field:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead:-ms-input-placeholder, .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .typeahead:-ms-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query:-ms-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-query:-ms-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint:-ms-input-placeholder,
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .asColorPicker-wrap .tt-hint:-ms-input-placeholder {
-  color: #6f7580;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-settings {
-  border-left: 1px solid rgba(255, 255, 255, 0.24);
-  margin: 0;
-  padding-left: 1.5rem;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-settings .nav-link {
-  padding: 0;
-  text-align: center;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-settings i {
-  font-size: 1.5rem;
-  vertical-align: middle;
 }
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile img {
@@ -29705,473 +29506,6 @@ div.tagsinput span.tag a {
   }
 }
 
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .count-indicator {
-  position: relative;
-  padding: 5px 10px 5px 10px;
-  text-align: center;
-  background-image: linear-gradient(to top, #f1f2f5, rgba(255, 255, 255, 0)), linear-gradient(to bottom, #f6f6f9, #f6f6f9);
-  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  -webkit-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  -moz-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  -ms-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  border-radius: 10px;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .count-indicator i {
-  font-size: 1.5rem;
-  margin-right: 0;
-  vertical-align: middle;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .count-indicator .count {
-  position: absolute;
-  left: 45%;
-  width: 16px;
-  height: 14px;
-  border-radius: 4px;
-  background: #f02632;
-  top: 0px;
-  font-size: 8px;
-  font-weight: bold;
-  color: #ffffff;
-  padding-top: 3px;
-}
-
-.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .count-indicator:after {
-  display: none;
-}
-
-@media (min-width: 992px) {
-  .rtl .navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right {
-    margin-left: 0;
-    margin-right: auto;
-  }
-}
-
-.navbar.navbar-primary .navbar-menu-wrapper {
-  background: #6045ec;
-}
-
-.navbar.navbar-primary .navbar-menu-wrapper .welcome-message {
-  color: #d7d0fa;
-}
-
-.navbar.navbar-primary .navbar-menu-wrapper .nav-item .nav-link {
-  color: #6045ec;
-}
-
-.navbar.navbar-primary .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-primary .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-primary:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #6045ec;
-}
-
-.navbar.navbar-primary:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #6045ec;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-secondary .navbar-menu-wrapper {
-  background: #6f7580;
-}
-
-.navbar.navbar-secondary .navbar-menu-wrapper .welcome-message {
-  color: #c0c3c8;
-}
-
-.navbar.navbar-secondary .navbar-menu-wrapper .nav-item .nav-link {
-  color: #6f7580;
-}
-
-.navbar.navbar-secondary .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-secondary .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-secondary:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #6f7580;
-}
-
-.navbar.navbar-secondary:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #6f7580;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-success .navbar-menu-wrapper {
-  background: #0fc036;
-}
-
-.navbar.navbar-success .navbar-menu-wrapper .welcome-message {
-  color: #74f490;
-}
-
-.navbar.navbar-success .navbar-menu-wrapper .nav-item .nav-link {
-  color: #0fc036;
-}
-
-.navbar.navbar-success .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-success .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-success:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #0fc036;
-}
-
-.navbar.navbar-success:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #0fc036;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-info .navbar-menu-wrapper {
-  background: #2677f0;
-}
-
-.navbar.navbar-info .navbar-menu-wrapper .welcome-message {
-  color: #b5d1fa;
-}
-
-.navbar.navbar-info .navbar-menu-wrapper .nav-item .nav-link {
-  color: #2677f0;
-}
-
-.navbar.navbar-info .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-info .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-info:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #2677f0;
-}
-
-.navbar.navbar-info:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #2677f0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-warning .navbar-menu-wrapper {
-  background: #ffc300;
-}
-
-.navbar.navbar-warning .navbar-menu-wrapper .welcome-message {
-  color: #ffe799;
-}
-
-.navbar.navbar-warning .navbar-menu-wrapper .nav-item .nav-link {
-  color: #ffc300;
-}
-
-.navbar.navbar-warning .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-warning .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-warning:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #ffc300;
-}
-
-.navbar.navbar-warning:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #ffc300;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper {
-  background: #f02632;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .welcome-message {
-  color: #fab5b9;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link {
-  color: #f02632;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-danger .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-danger:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #f02632;
-}
-
-.navbar.navbar-danger:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #f02632;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #f1f1f4;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: white;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #f1f1f4;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-light:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #f1f1f4;
-}
-
-.navbar.navbar-light:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #f1f1f4;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  background: #1c273c;
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper .welcome-message {
-  color: #4d6ba4;
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-dark .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: transparent;
-}
-
-.navbar.navbar-dark:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-dark:not(.navbar-light) .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper {
-  background: #ffffff;
-  border-left: 1px solid #eeeef0;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .welcome-message {
-  color: #343a40;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .navbar-toggler {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item .nav-link {
-  color: #1c273c;
-}
-
-.navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .input-group, .navbar.navbar-light .navbar-menu-wrapper .nav-item.nav-search .asColorPicker-wrap {
-  background: rgba(28, 39, 60, 0.24);
-}
-
-.navbar.navbar-dark .navbar-menu-wrapper {
-  border-left-color: #696976;
-}
-
-.navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #6045ec;
-}
-
 @media (max-width: 991px) {
   .navbar {
     flex-direction: row;
@@ -30202,178 +29536,88 @@ div.tagsinput span.tag a {
   }
 }
 
-/* Layouts */
+/* Layout */
 @media (min-width: 992px) {
-  .sidebar-mini .navbar {
-    width: 100%;
-    margin-left: 185px;
-  }
-  .sidebar-mini .navbar .navbar-brand-wrapper {
-    width: 185px;
-    display: none !important;
-  }
-  .sidebar-mini .navbar .navbar-menu-wrapper {
-    width: calc(100% - 185px);
-  }
-  .sidebar-mini .sidebar {
-    position: fixed;
-    top: 0;
-    width: 185px;
-  }
-  .sidebar-mini .sidebar .nav .nav-item {
-    padding: 0;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .menu-heading {
-    padding-left: 0;
-    text-align: center;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .nav-link {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    border-bottom: none;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .nav-link .menu-title {
-    display: block;
-    margin: auto;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .nav-link .badge {
-    margin-left: 5px;
-    display: none;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .nav-link i.menu-icon {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: .625rem;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .nav-link i.menu-icon:after {
-    left: 42%;
-  }
-  .sidebar-mini .sidebar .nav .nav-item .nav-link i.menu-arrow {
-    display: inline-block;
-    margin-left: 5px;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .sidebar-mini .main-panel {
-    width: calc(100% - 185px);
-    margin-left: 185px;
-  }
-  .sidebar-mini:not(.sidebar-icon-only) .sidebar .nav.sub-menu {
-    padding: 0;
-    border-top: none;
-  }
-  .sidebar-mini:not(.sidebar-icon-only) .sidebar .nav.sub-menu .nav-item .nav-link {
-    padding: .75rem 0 .75rem 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: left;
-    width: 66%;
-  }
-  .sidebar-mini.sidebar-icon-only .sidebar .nav .nav-item .nav-link i.menu-icon:after {
-    left: 21px;
-  }
-  .sidebar-mini.sidebar-icon-only .main-panel {
-    margin-left: 70px;
-  }
-}
-
-@media (min-width: 992px) {
-  .sidebar-icon-only .navbar {
+  .sidebar-icons .navbar {
     width: 100%;
     margin-left: 0;
   }
-  .sidebar-icon-only .navbar .navbar-brand-wrapper {
+  .sidebar-icons .navbar .navbar-brand-wrapper {
     padding-left: 0;
     width: 0;
     display: none;
   }
-  .sidebar-icon-only .navbar .navbar-brand-wrapper .brand-logo {
+  .sidebar-icons .navbar .navbar-brand-wrapper .brand-logo {
     display: none;
   }
-  .sidebar-icon-only .navbar .navbar-brand-wrapper .brand-logo-mini {
+  .sidebar-icons .navbar .navbar-brand-wrapper .brand-logo-mini {
     display: none;
     padding: 0 1rem;
   }
-  .sidebar-icon-only .navbar .navbar-menu-wrapper {
+  .sidebar-icons .navbar .navbar-menu-wrapper {
     width: calc(100% - 70px);
   }
-  .sidebar-icon-only .sidebar {
+  .sidebar-icons .sidebar {
     width: 70px;
   }
-  .sidebar-icon-only .sidebar .nav {
+  .sidebar-icons .sidebar .nav {
     overflow: visible;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item {
+  .sidebar-icons .sidebar .nav .nav-item {
     position: relative;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .navbar-brand {
+  .sidebar-icons .sidebar .nav .nav-item .navbar-brand {
     padding-left: 1.5rem;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .navbar-brand.brand-logo {
+  .sidebar-icons .sidebar .nav .nav-item .navbar-brand.brand-logo {
     display: none;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .navbar-brand.brand-logo-mini {
+  .sidebar-icons .sidebar .nav .nav-item .navbar-brand.brand-logo-mini {
     display: inline-block;
     padding: 0 1.25rem;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link {
     display: block;
     padding-left: .5rem;
     padding-right: .5rem;
     text-align: center;
     position: static;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link .menu-title,
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link .badge, .sidebar-icon-only .sidebar .nav .nav-item .nav-link .menu-sub-title {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link .menu-title,
+  .sidebar-icons .sidebar .nav .nav-item .nav-link .badge, .sidebar-icons .sidebar .nav .nav-item .nav-link .menu-sub-title {
     display: none;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link .menu-title {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link .menu-title {
     border-radius: 0 5px 5px 0px;
   }
-  .rtl.sidebar-icon-only .sidebar .nav .nav-item .nav-link .menu-title {
+  .rtl.sidebar-icons .sidebar .nav .nav-item .nav-link .menu-title {
     border-radius: 5px 0 0 5px;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link i.menu-icon {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link i.menu-icon {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link i.menu-arrow {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link i.menu-arrow {
     display: none;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link i:after {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link i:after {
     left: 21px;
     top: 10px;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .nav-link[aria-expanded] .menu-title {
+  .sidebar-icons .sidebar .nav .nav-item .nav-link[aria-expanded] .menu-title {
     border-radius: 0 5px 0 0px;
   }
-  .rtl.sidebar-icon-only .sidebar .nav .nav-item .nav-link[aria-expanded] .menu-title {
+  .rtl.sidebar-icons .sidebar .nav .nav-item .nav-link[aria-expanded] .menu-title {
     border-radius: 5px 0 0 0;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .menu-heading {
+  .sidebar-icons .sidebar .nav .nav-item .menu-heading {
     display: none;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item .collapse {
+  .sidebar-icons .sidebar .nav .nav-item .collapse {
     display: none;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+  .sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -30390,29 +29634,29 @@ div.tagsinput span.tag a {
     line-height: 1.8;
     box-shadow: 4px 0px 7px 0px rgba(182, 185, 189, 0.25);
   }
-  .sidebar-dark.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+  .sidebar-dark.sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
     background: #23262b;
   }
-  .rtl.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+  .rtl.sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
     left: auto;
     right: 70px;
     text-align: left;
     box-shadow: -4px 0px 7px 0px rgba(182, 185, 189, 0.25);
   }
-  .sidebar-dark.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+  .sidebar-dark.sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
     color: #ffffff;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title:after {
+  .sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link .menu-title:after {
     display: none;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link:hover .menu-title {
+  .sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link:hover .menu-title {
     background: #f3f4f7;
   }
-  .sidebar-dark.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link:hover .menu-title {
+  .sidebar-dark.sidebar-icons .sidebar .nav .nav-item.hover-open .nav-link:hover .menu-title {
     background: #23262b;
   }
-  .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse,
-  .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapsing {
+  .sidebar-icons .sidebar .nav .nav-item.hover-open .collapse,
+  .sidebar-icons .sidebar .nav .nav-item.hover-open .collapsing {
     display: block;
     padding: .5rem 0;
     background: #f3f4f7;
@@ -30422,16 +29666,16 @@ div.tagsinput span.tag a {
     width: 190px;
     box-shadow: 4px 4px 7px 0px rgba(182, 185, 189, 0.25);
   }
-  .sidebar-dark.sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse, .sidebar-dark.sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapsing {
+  .sidebar-dark.sidebar-icons .sidebar .nav .nav-item.hover-open .collapse, .sidebar-dark.sidebar-icons .sidebar .nav .nav-item.hover-open .collapsing {
     background: #23262b;
   }
-  .rtl.sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse, .rtl.sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapsing {
+  .rtl.sidebar-icons .sidebar .nav .nav-item.hover-open .collapse, .rtl.sidebar-icons .sidebar .nav .nav-item.hover-open .collapsing {
     left: auto;
     right: 70px;
     border-radius: 0 0 0 5px;
     box-shadow: -4px 4px 7px 0px rgba(182, 185, 189, 0.25);
   }
-  .sidebar-icon-only .sidebar .nav.sub-menu {
+  .sidebar-icons .sidebar .nav.sub-menu {
     padding: 0 0 0 0.5rem;
     width: 90%;
     margin-left: 5%;
@@ -30440,149 +29684,14 @@ div.tagsinput span.tag a {
     -moz-box-shadow: none;
     -ms-box-shadow: none;
   }
-  .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link {
+  .sidebar-icons .sidebar .nav.sub-menu .nav-item .nav-link {
     text-align: left;
     padding-left: 20px;
   }
-  .sidebar-icon-only .main-panel {
+  .sidebar-icons .main-panel {
     width: calc(100% - 70px);
     margin-left: 70px;
   }
-}
-
-@media (min-width: 992px) {
-  .sidebar-hidden .navbar {
-    margin-left: 0;
-    width: 100%;
-  }
-  .sidebar-hidden .sidebar {
-    transition: width 0.25s ease;
-    -webkit-transition: width 0.25s ease;
-    -moz-transition: width 0.25s ease;
-    -ms-transition: width 0.25s ease;
-    width: 0;
-  }
-  .sidebar-hidden .main-panel {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .sidebar-absolute .navbar {
-    margin-left: 0;
-    width: 100%;
-  }
-  .sidebar-absolute .page-body-wrapper {
-    position: relative;
-  }
-  .sidebar-absolute .page-body-wrapper .sidebar {
-    transition: none;
-  }
-  .sidebar-absolute:not(.sidebar-hidden) .sidebar {
-    position: absolute;
-    height: 100%;
-    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-    -webkit-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-    -moz-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-    -ms-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
-  }
-  .sidebar-absolute .main-panel {
-    width: 100%;
-    transition: none;
-    margin-left: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .sidebar-fixed .sidebar {
-    position: fixed;
-    max-height: auto;
-    top: 0;
-  }
-  .sidebar-fixed .sidebar .nav {
-    max-height: 100vh;
-    overflow: auto;
-    position: relative;
-  }
-  .sidebar-fixed .sidebar .nav.sub-menu {
-    max-height: none;
-  }
-  .sidebar-fixed .navbar {
-    margin-left: 240px;
-  }
-  .sidebar-fixed .main-panel {
-    margin-left: 240px;
-  }
-  .sidebar-fixed.sidebar-icon-only .navbar {
-    margin-left: 0;
-    width: 100%;
-  }
-  .sidebar-fixed.sidebar-icon-only .main-panel {
-    margin-left: 70px;
-  }
-}
-
-@media (min-width: 992px) {
-  .boxed-layout .container-scroller {
-    background: #c6c8ca;
-    padding: 0 calc((100% - 1200px) / 2);
-  }
-  .boxed-layout .navbar.fixed-top {
-    margin: auto;
-    max-width: 1200px;
-  }
-}
-
-.rtl {
-  direction: rtl;
-  text-align: right;
-}
-
-.rtl .sidebar .nav {
-  padding-right: 0;
-}
-
-.rtl .sidebar .nav.sub-menu {
-  padding: 0 4.5rem 0 0;
-}
-
-.sidebar-icon-only.rtl .sidebar .nav.sub-menu {
-  padding-right: 0rem;
-}
-
-.sidebar-icon-only.rtl .sidebar .nav.sub-menu .nav-item .nav-link {
-  padding-right: 3rem;
-  text-align: right;
-}
-
-.sidebar-icon-only.rtl .sidebar .nav.sub-menu .nav-item .nav-link:before {
-  right: 1.75rem;
-}
-
-.rtl .product-chart-wrapper::-webkit-scrollbar,
-.rtl .settings-panel .tab-content .tab-pane .scroll-wrapper::-webkit-scrollbar,
-.rtl .sidebar-fixed .nav::-webkit-scrollbar,
-.rtl .table-responsive::-webkit-scrollbar,
-.rtl ul.chats::-webkit-scrollbar {
-  width: 0.5em;
-}
-
-.rtl .product-chart-wrapper::-webkit-scrollbar-track,
-.rtl .settings-panel .tab-content .tab-pane .scroll-wrapper::-webkit-scrollbar-track,
-.rtl .sidebar-fixed .nav::-webkit-scrollbar-track,
-.rtl .table-responsive::-webkit-scrollbar-track,
-.rtl ul.chats::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.rtl .product-chart-wrapper::-webkit-scrollbar-thumb,
-.rtl .settings-panel .tab-content .tab-pane .scroll-wrapper::-webkit-scrollbar-thumb,
-.rtl .sidebar-fixed .nav::-webkit-scrollbar-thumb,
-.rtl .table-responsive::-webkit-scrollbar-thumb,
-.rtl ul.chats::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
 }
 
 /* Settings Panel */
