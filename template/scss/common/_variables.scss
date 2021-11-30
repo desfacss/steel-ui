@@ -1,107 +1,65 @@
 
 ////////// COLOR SYSTEM //////////
 
-$blue:              #5E50F9;
-$indigo:            #6610f2;
-$purple:            #6a008a;
-$pink:              #E91E63;
-$red:               #f96868;
-$orange:            #f2a654;
-$yellow:            #f6e84e;
-$green:             #46c35f;
-$teal:              #58d8a3;
-$cyan:              #57c7d4;
 $black:             #000;
 $white:             #ffffff;
-$white-smoke:       #f2f7f8;
-$violet:            #41478a;
-$darkslategray :    #2e383e;
-$dodger-blue :      #3498db;
 
 
 $colors: (
   blue:             $blue,
-  indigo:           $indigo,
-  purple:           $purple,
-  pink:             $pink,
   red:              $red,
-  orange:           $orange,
-  yellow:           $yellow,
   green:            $green,
-  teal:             $teal,
-  cyan:             $cyan,
   white:            $white,
-  gray:             #434a54,
-  gray-light:       #aab2bd,
-  gray-lighter:     #e8eff4,
-  gray-lightest:    #e6e9ed,
+  gray:             #566180,
+  gray-light:       #566180,
+  gray-lighter:     #f3f4f7,
+  gray-lightest:    #f3f4f7,
   gray-dark:        #0f1531,
   black:            #000000
 );
 
 
-$theme-colors: (
-  primary:         #6045ec,
-  secondary:       #6f7580,
+$main-colors: (
+  primary:         #003778,
+  secondary:       #566180,
   success:         #0fc036,
-  info:            #2677f0,
+  info:            #0062D7,
   warning:         #ffc300,
-  danger:          #f02632,
-  light:           #f1f1f4,
+  danger:          #FF0808,
+  light:           #f3f4f7,
   dark:            #1c273c
 );
 
-$theme-gradient-colors: (
-  primary:         linear-gradient(230deg, #759bff, #843cf6),
-  secondary:       linear-gradient(to right, #e7ebf0, #868e96),
-  success:         linear-gradient(45deg, #7bffce, #30c93e),
-  info:            linear-gradient(to bottom, #0e4cfd, #6a8eff),
-  warning:         linear-gradient(135deg, #ffc480, #ff763b),
-  danger:          linear-gradient(316deg, #fc5286, #fbaaa2),
-  light:           linear-gradient(to right, #cfd9df 0%, #e2ebf0 100%),
-  dark:            linear-gradient(to right, #7d7979 0%, #000000 100%)
+$gradient-colors: (
+  primary:         linear-gradient(135.37deg, #003778, #0062D7),
+  secondary:       linear-gradient(to right, #f3f4f7, #868e96),
+  success:         linear-gradient(45deg, #0fc036, #30c93e),
+  info:            linear-gradient(to bottom, #0062D7, #6a8eff),
+  warning:         linear-gradient(135deg, #ffc300, #ff763b),
+  danger:          linear-gradient(316deg, #FF0808, #fbaaa2),
+  light:           linear-gradient(to right, #f3f4f7 0%, #e2ebf0 100%),
+  dark:            linear-gradient(to right, #6e7381 0%, #566180 100%)
 );
-
-////////// COLOR SYSTEM //////////
 
 ////////// COLOR VARIABLES //////////
 $content-bg: #f3f4f7;
 $border-color: #eeeef0;
-$light-grey: #f4f5f6;
-////////// COLOR VARIABLES //////////
+$light-grey: #f3f4f6;
 
-
-
-////////// SOCIAL COLORS //////////
-
-$social-colors: (
-  twitter: #2caae1,
-  facebook: #3b579d,
-  google: #dc4a38,
-  linkedin: #0177b5,
-  pinterest: #cc2127,
-  youtube: #e52d27,
-  github: #333333,
-  behance: #1769ff,
-  dribbble: #ea4c89,
-  reddit: #ff4500
-);
-
-////////// SOCIAL COLORS //////////
 
 ////////// FONTS//
 
-$type1:     'Rubik', sans-serif;
+$type1:     'Poppins', sans-serif;
 
 $default-font-size: .875rem; // 14px as base font size
 
 $text-muted: #95999d;
-$body-color: #2e294e;
+$body-color: #566180;
 
 ////////// FONT VARIABLES //////////
 
 ///////// FOOTER ////////
-$footer-height: 75px;
+$footer-height: 50px;
 $footer-bg: $content-bg;
 $footer-color: color(dark);
 ///////// FOOTER ////////
@@ -127,12 +85,12 @@ $btn-font-size-xs:    .625rem;
 $btn-font-size-sm:    .875rem;
 $btn-font-size-lg:    .875rem;
 
-$btn-border-radius:         .1875rem;
-$btn-border-radius-xs:      .1875rem;
-$btn-border-radius-sm:      .1875rem;
-$btn-border-radius-lg:      .1875rem;
+$btn-border-radius:         1.9875rem;
+$btn-border-radius-xs:      1.9875rem;
+$btn-border-radius-sm:      1.9875rem;
+$btn-border-radius-lg:      1.9875rem;
 
-$btn-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+$btn-box-shadow: -5px -5px 10px #fafbff, 5px 5px 10px #a6abbd;
 $btn-box-shadow-hover:inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
 $modal-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; 
 
@@ -197,7 +155,7 @@ $table-inverse-color: color(white);
 
 
 
-////////// MEASUREMENT AND PROPERTY VARIABLES //////////
+////////// PROPERTY VARIABLES //////////
 
 $border-property: 1px solid $border-color;
 $card-spacing-y: 1.25rem;
@@ -205,10 +163,11 @@ $card-padding-y: 1.5rem;
 $card-padding-x: 1.5rem;
 $card-border-radius: 10px;
 $card-border-color: #e7eaed;
-$card-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.08), -5px -6px 10px 0 rgba(253, 253, 253, 0.9);
+$card-box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
 $card-background-image: linear-gradient(to top, #f1f2f5, rgba(255, 255, 255, 0)), linear-gradient(to bottom, #f6f6f9, #f6f6f9);
-$card-title-color: #2e294e;
-$card-description-color: #76838f;
+// $card-background-image: linear-gradient(135.37deg, rgba(0, 0, 0, 0.4) 4.29%, rgba(255, 255, 255, 0.4) 95.6%), #EBECF0;
+$card-title-color: #566180;
+$card-description-color: #566180;
 $grid-gutter-width: 20px;
 $action-transition-duration: 0.25s;
 $action-transition-timing-function: ease;
@@ -216,68 +175,7 @@ $action-transition-timing-function: ease;
 
 
 
-////////// BREAD CRUMBS VARIABLES //////////
 
-// default styles
-$breadcrumb-padding-y:              0.56rem;
-$breadcrumb-padding-x:              1.13rem;
-$breadcrumb-item-padding:           .5rem;
-$breadcrumb-margin-bottom:          1rem;
-$breadcrumb-font-size:              $default-font-size;
-$breadcrumb-bg:                     transparent;
-$breadcrumb-border-color:           $border-color;
-$breadcrumb-divider-color:          $gray-600;
-$breadcrumb-active-color:           $gray-700;
-$breadcrumb-divider:                "/";
-
-// custom styles
-$breadcrumb-custom-padding-y:       0;
-$breadcrumb-custom-padding-x:       0;
-$breadcrumb-custom-item-padding-y:  0.56rem;
-$breadcrumb-custom-item-padding-x:  10px;
-$breadcrumb-custom-item-color:      $black;
-$breadcrumb-item-bg:                #dbe3e6;
-
-////////// BREAD CRUMBS VARIABLES //////////
-
-
-
-////////// MODALS VARIABLES //////////
-
-$modal-inner-padding:               0.9375rem;
-$modal-dialog-margin:               10px;
-$modal-dialog-margin-y-sm-up:       30px;
-$modal-title-line-height:           $line-height-base;
-$modal-content-bg:                  $white;
-$modal-content-box-shadow-xs:       0 3px 9px rgba($black,.5);
-$modal-content-box-shadow-sm-up:    0 5px 15px rgba($black,.5);
-
-$modal-backdrop-bg:                 $black;
-$modal-backdrop-opacity:            .5;
-
-$modal-header-border-color:         $border-color;
-$modal-content-border-color:        $border-color;
-$modal-footer-border-color:         $border-color;
-
-$modal-header-border-width:         $border-width;
-$modal-content-border-width:        $border-width;
-$modal-footer-border-width:         $border-width;
-
-$modal-header-padding-x:              26px;
-$modal-header-padding-y:              25px;
-
-$modal-body-padding-x:                26px;
-$modal-body-padding-y:                35px;
-
-$modal-footer-padding-x:              31px;
-$modal-footer-padding-y:              15px;
-
-$modal-lg:                          90%;
-$modal-md:                          500px;
-$modal-sm:                          300px;
-$modal-transition:                  transform .4s ease;
-
-////////// MODALS VARIABLES //////////
 
 /////////  TABS VARIABLES //////////
 $nav-tabs-border-color:             #ebedf2;
@@ -290,8 +188,7 @@ $nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-colo
 $nav-pills-custom-bg:               #fcfcfd;
 ////////   TABS VARIABLES /////////
 
-////////   CALENDAR  //////////////
-$fullcalendar-color: #a8b2b9;
+
 ////////   CALENDAR  //////////////
 
-$bg-light : #f1f1f4; 
+$bg-light : #f3f4f7;

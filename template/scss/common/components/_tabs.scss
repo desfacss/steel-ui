@@ -48,12 +48,12 @@
 	}
 	&.nav-tabs-vertical-custom {
 		@extend .nav-tabs-vertical;
-		background: theme-color(primary);
+		background: t-color(primary);
 		border-radius: 4px;
 		.nav-link {
 			background: transparent;
 			border-color: rgba($white, .2);
-			color: darken(theme-color(primary), 30%);
+			color: darken(t-color(primary), 30%);
 			font-weight: 600;
 			padding: 1.75rem;
 			&.active {
@@ -96,7 +96,7 @@
 			background: $nav-pills-custom-bg;
 			color: $black;
 			&.active {
-				background: theme-color(danger);
+				background: t-color(danger);
 				color: $white;
 			}
 		}
@@ -104,12 +104,12 @@
 }
 
 /* Pills color variations */
-@each $color, $value in $theme-colors {
+@each $color, $value in $main-colors {
   .nav-pills-#{$color} {
     .nav-link {
 			color: $value;
 			&.active {
-				background: theme-color($color);
+				background: t-color($color);
 			}
 		}
   }

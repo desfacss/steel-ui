@@ -16,7 +16,14 @@
   }
 }
 .form-control {
-  border: 1px solid $border-color;
+  background: linear-gradient(317.7deg,rgba(0,0,0,.4),hsla(0,0%,100%,.4) 105.18%),#ebecf0;
+  background-blend-mode: soft-light,normal;
+  border: 1px solid hsla(0,0%,100%,.4);
+  box-sizing: border-box;
+  box-shadow: inset -3px -3px 10px #fafbff, inset 3px 3px 10px #a6abbd;
+  border-radius: 40px;
+
+  // border: 1px solid $border-color;
   font-weight: 400;
   font-size: $input-font-size;
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
@@ -39,7 +46,7 @@ select {
     &:focus {
       outline: 1px solid $border-color;
     }
-    @each $color, $value in $theme-colors {
+    @each $color, $value in $main-colors {
       &.border-#{$color} {
         outline: 1px solid $value;
         &:focus {
@@ -58,7 +65,7 @@ select {
   }
   &.has-danger {
     .form-control {
-      border-color: theme-color(danger);
+      border-color: t-color(danger);
     }
   }
   .file-upload-default {
