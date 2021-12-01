@@ -32,16 +32,16 @@
     color: $card-description-color;
   }
   &.card-outline-success {
-		border: 1px solid t-color("success");
+		border: 1px solid theme-color("success");
 	}
 	&.card-outline-primary {
-		border: 1px solid t-color("primary");
+		border: 1px solid theme-color("primary");
 	}
 	&.card-outline-warning {
-		border: 1px solid t-color("warning");
+		border: 1px solid theme-color("warning");
 	}
 	&.card-outline-danger {
-		border: 1px solid t-color("danger");
+		border: 1px solid theme-color("danger");
 	}
 	&.card-rounded {
 		@include border-radius(5px);
@@ -83,8 +83,8 @@
   }
 }
 
-@each $color, $value in $main-colors {
+@each $color, $value in $theme-colors {
   .card-inverse-#{$color} {
-    @include card-inverse-variant(rgba(t-color($color), .2), t-color-level($color, 1), t-color-level($color, 3));
+    @include card-inverse-variant(rgba(theme-color($color), .2), theme-color-level($color, 1), theme-color-level($color, 3));
   }
 }

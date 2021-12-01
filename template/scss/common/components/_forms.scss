@@ -46,7 +46,7 @@ select {
     &:focus {
       outline: 1px solid $border-color;
     }
-    @each $color, $value in $main-colors {
+    @each $color, $value in $theme-colors {
       &.border-#{$color} {
         outline: 1px solid $value;
         &:focus {
@@ -65,7 +65,7 @@ select {
   }
   &.has-danger {
     .form-control {
-      border-color: t-color(danger);
+      border-color: theme-color(danger);
     }
   }
   .file-upload-default {

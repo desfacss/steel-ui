@@ -161,7 +161,7 @@
             &.menu-arrow {
               &:before {
                 @include rotate(90);
-                color: t-color(danger);
+                color: theme-color(danger);
                 font-weight: bold;
               }
             }
